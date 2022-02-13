@@ -1,0 +1,19 @@
+/*palandram or not*/
+int main() {
+    int n,x,rem,rev=0;
+    printf("enter the number:");
+    scanf("%d",&n);
+    x=n;
+    if(0>n<=100000)
+    {
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+    if(x==rev)
+    printf("given number is palindrome number");
+    else {
+    printf("given number is not a palindrome number");
+    }
+    return 0;
+}
