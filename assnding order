@@ -1,0 +1,11 @@
+/*assnding order*/
+int main() {
+    int n,i;
+    printf("enter the n value:");
+    scanf("%d",&n);
+    {
+        i++;
+    }
+    printf("enter the given in order",n);
+    return 0;
+}
